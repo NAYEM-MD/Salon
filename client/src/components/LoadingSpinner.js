@@ -1,0 +1,10 @@
+import './LoadingSpinner.css';
+
+export default function LoadingSpinner() {
+  return (
+    <div className="loading-spinner" role="status" aria-label="Loading">
+      <div className="loading-spinner__ring" />
+      <p className="loading-spinner__text">Loading…</p>
+    </div>
+  );
+}
